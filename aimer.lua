@@ -7,11 +7,11 @@ local function LoadMainScript()
     -- [[ CONFIGURATION ]] --
     getgenv().DNS = {
         Camlock = {
-            Main = { Enabled = true, Key = "C", Smoothness = 0.2, Prediction = 0.111, Parts = {"Head"} },
+            Main = { Enabled = true, Key = "C", Smoothness = 0.2, Prediction = 0.80, Parts = {"Head"} },
             FOV = { ShowFOV = false, Radius = 300, Color = Color3.fromRGB(0, 71, 171), Filled = false, Transparency = 0.5 }
         },
         Silent = {
-            Main = { Enabled = true, Mode = "Target", Prediction = 0.111, Parts = {"Head", "UpperTorso"} },
+            Main = { Enabled = true, Mode = "Target", Prediction = 0.200, Parts = {"Head", "UpperTorso"} },
             FOV = { ShowFOV = false, Radius = 500, Color = Color3.fromRGB(0, 71, 171), Filled = false, Transparency = 0.5 }
         },
         Misc = {
